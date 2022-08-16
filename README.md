@@ -30,8 +30,10 @@ Unlike before, I used c++.
 ![Screenshot from 2022-07-22 09-39-36](https://user-images.githubusercontent.com/58837749/184784002-c265faf8-65fb-4031-bd6d-c6c8bf869239.png)
 
 # 2. How to Use
-In order to run first project, you need to change topic of my RC-Car motor message type to yours.  
-<br>
+## 1. 1st project
+In order to run first project, you need to change topic of my RC-Car motor message type to yours. And this project needs ROS, you should use roslaunch.  
+
+## 2. 2nd project
 In order to run second project, please follow below command.
 ```bash
 cd 2nd
@@ -40,8 +42,7 @@ python3 subProject_chl.py --video_path ${your video path}
 Also, you can adjust value of binary image for better process using trackbar.  
 ![image](https://user-images.githubusercontent.com/58837749/184784310-a1e984c5-eed8-444f-bedc-5980a192a209.png)
 
-
-<br>
+## 3. 3rd project
 In order to run third project, please follow below command.  
 
 ```bash
