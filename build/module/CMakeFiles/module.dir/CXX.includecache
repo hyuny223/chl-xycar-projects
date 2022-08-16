@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../module/include/hyperparam.h
+opencv4/opencv2/opencv.hpp
+../module/include/opencv4/opencv2/opencv.hpp
+
+../module/include/polyfit.h
+eigen-3.4.0/Eigen/Dense
+../module/include/eigen-3.4.0/Eigen/Dense
+vector
+-
+eigen-3.4.0/Eigen/QR
+../module/include/eigen-3.4.0/Eigen/QR
+
+../module/include/warpProcessImage.h
+iostream
+-
+vector
+-
+opencv4/opencv2/opencv.hpp
+../module/include/opencv4/opencv2/opencv.hpp
+hyperparam.h
+../module/include/hyperparam.h
+polyfit.h
+../module/include/polyfit.h
+
+/home/chl/my_ws/src/turtle_sliding/module/src/warpProcessImage.cpp
+iostream
+-
+vector
+-
+opencv4/opencv2/opencv.hpp
+/home/chl/my_ws/src/turtle_sliding/module/src/opencv4/opencv2/opencv.hpp
+hyperparam.h
+/home/chl/my_ws/src/turtle_sliding/module/src/hyperparam.h
+polyfit.h
+/home/chl/my_ws/src/turtle_sliding/module/src/polyfit.h
+warpProcessImage.h
+/home/chl/my_ws/src/turtle_sliding/module/src/warpProcessImage.h
+
