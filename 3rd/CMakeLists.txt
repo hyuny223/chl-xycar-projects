@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(turtle_sliding)
+project(sliding_window)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -38,8 +38,6 @@ target_link_libraries(${PROJECT_NAME} PUBLIC
 # 	"OpenCV"
 #   "Eigen3"
 # )
-
-
 
 # install(TARGETS ${PROJECT_NAME}
 # 		DESTINATION lib/${PROJECT_NAME})

@@ -5,17 +5,20 @@
 #include "hyperparam.h"
 #include "drawLane.h"
 
-
-using namespace std;
-using namespace cv;
-
-
 HyperParam p;
 
 
-int main()
+int main(int argc, char* argv[])
 {
-	VideoCapture cap("/home/chl/Videos/subProject.avi");
+
+    if(argc != 2)
+    {
+        std::cerr << "Put your image path.\nOnly one argument available" << std::endl;
+        return -1;
+    }
+
+	// "/home/chl/Videos/subProject.avi"
+	cv::VideoCapture cap(argv[1]);
 
 	if (!cap.isOpened())
 	{
@@ -24,7 +27,7 @@ int main()
 		return -1;
 	}
 
-	Mat frame, M, Minv, warp_img;
+	cv::Mat frame, M, Minv, warp_img;
 	cv::Point2f warp_src[4], warp_dst[4];
 
 	warp_src[0] = cv::Point2f(20 - p.warpx_margin, 300 - p.warpy_margin);

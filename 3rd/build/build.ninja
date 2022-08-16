@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: turtle_sliding
+# Project: sliding_window
 # Configuration: 
 # =============================================================================
 
@@ -53,39 +53,39 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
-# Object build statements for EXECUTABLE target turtle_sliding
+# Object build statements for EXECUTABLE target sliding_window
 
 
 #############################################
-# Order-only phony target for turtle_sliding
+# Order-only phony target for sliding_window
 
-build cmake_object_order_depends_target_turtle_sliding: phony || cmake_object_order_depends_target_module
+build cmake_object_order_depends_target_sliding_window: phony || cmake_object_order_depends_target_module
 
-build CMakeFiles/turtle_sliding.dir/main.cpp.o: CXX_COMPILER__turtle_sliding ../main.cpp || cmake_object_order_depends_target_turtle_sliding
-  DEP_FILE = CMakeFiles/turtle_sliding.dir/main.cpp.o.d
+build CMakeFiles/sliding_window.dir/main.cpp.o: CXX_COMPILER__sliding_window ../main.cpp || cmake_object_order_depends_target_sliding_window
+  DEP_FILE = CMakeFiles/sliding_window.dir/main.cpp.o.d
   FLAGS = -std=gnu++17
   INCLUDES = -I../module/include -isystem /usr/local/include/opencv4 -isystem /usr/local/include/eigen3
-  OBJECT_DIR = CMakeFiles/turtle_sliding.dir
-  OBJECT_FILE_DIR = CMakeFiles/turtle_sliding.dir
-  TARGET_COMPILE_PDB = CMakeFiles/turtle_sliding.dir/
-  TARGET_PDB = turtle_sliding.pdb
+  OBJECT_DIR = CMakeFiles/sliding_window.dir
+  OBJECT_FILE_DIR = CMakeFiles/sliding_window.dir
+  TARGET_COMPILE_PDB = CMakeFiles/sliding_window.dir/
+  TARGET_PDB = sliding_window.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target turtle_sliding
+# Link build statements for EXECUTABLE target sliding_window
 
 
 #############################################
-# Link the executable turtle_sliding
+# Link the executable sliding_window
 
-build turtle_sliding: CXX_EXECUTABLE_LINKER__turtle_sliding CMakeFiles/turtle_sliding.dir/main.cpp.o | module/libmodule.so /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 || module/libmodule.so
+build sliding_window: CXX_EXECUTABLE_LINKER__sliding_window CMakeFiles/sliding_window.dir/main.cpp.o | module/libmodule.so /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 /usr/local/lib/libopencv_world.so.4.5.5 || module/libmodule.so
   LINK_LIBRARIES = -Wl,-rpath,/home/chl/xycar/3rd/build/module:/usr/local/lib  module/libmodule.so  /usr/local/lib/libopencv_world.so.4.5.5  /usr/local/lib/libopencv_world.so.4.5.5  /usr/local/lib/libopencv_world.so.4.5.5  /usr/local/lib/libopencv_world.so.4.5.5  /usr/local/lib/libopencv_world.so.4.5.5  /usr/local/lib/libopencv_world.so.4.5.5  /usr/local/lib/libopencv_world.so.4.5.5  /usr/local/lib/libopencv_world.so.4.5.5  /usr/local/lib/libopencv_world.so.4.5.5  /usr/local/lib/libopencv_world.so.4.5.5  /usr/local/lib/libopencv_world.so.4.5.5  /usr/local/lib/libopencv_world.so.4.5.5  /usr/local/lib/libopencv_world.so.4.5.5  /usr/local/lib/libopencv_world.so.4.5.5  /usr/local/lib/libopencv_world.so.4.5.5  /usr/local/lib/libopencv_world.so.4.5.5
-  OBJECT_DIR = CMakeFiles/turtle_sliding.dir
+  OBJECT_DIR = CMakeFiles/sliding_window.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/turtle_sliding.dir/
-  TARGET_FILE = turtle_sliding
-  TARGET_PDB = turtle_sliding.pdb
+  TARGET_COMPILE_PDB = CMakeFiles/sliding_window.dir/
+  TARGET_FILE = sliding_window
+  TARGET_PDB = sliding_window.pdb
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -218,7 +218,7 @@ build module: phony module/libmodule.so
 #############################################
 # Folder: /home/chl/xycar/3rd/build
 
-build all: phony turtle_sliding module/all
+build all: phony sliding_window module/all
 
 # =============================================================================
 

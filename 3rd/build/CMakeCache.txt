@@ -142,7 +142,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=turtle_sliding
+CMAKE_PROJECT_NAME:STATIC=sliding_window
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -222,10 +222,10 @@ module_LIB_DEPENDS:STATIC=general;opencv_calib3d;general;opencv_core;general;ope
 module_SOURCE_DIR:STATIC=/home/chl/xycar/3rd/module
 
 //Value Computed by CMake
-turtle_sliding_BINARY_DIR:STATIC=/home/chl/xycar/3rd/build
+sliding_window_BINARY_DIR:STATIC=/home/chl/xycar/3rd/build
 
 //Value Computed by CMake
-turtle_sliding_SOURCE_DIR:STATIC=/home/chl/xycar/3rd
+sliding_window_SOURCE_DIR:STATIC=/home/chl/xycar/3rd
 
 
 ########################

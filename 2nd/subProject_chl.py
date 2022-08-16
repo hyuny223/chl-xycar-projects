@@ -99,7 +99,7 @@ def main(path):
 
 		frame = draw.draw_predicted(lpos, rpos, frame)
 
-		# cv2.imshow('lane',lane)
+		cv2.imshow('lane',lane)
 		cv2.imshow("img",frame)
 		if (cv2.waitKey(1) == 27):
 			break
