@@ -16,8 +16,8 @@ Huff Transform Lane Detection
 
 
 ## 2nd - More sophisticated image processing
-Second project is for mor sophisticated image processing. It is based "Brightness Difference Lane Detection".  
-For Robustness against change of Brightness of driving environment, I use maintaining average brightness. And to prepare for lane loss, I use very basic Kalman filter, not WMVF above. However the performance is not good. It is necessary to adjust the value according to the environment.  
+Second project is for mor sophisticated image processing. It is based on "Brightness Difference Lane Detection".  
+For Robustness against change of Brightness of driving environment, I maintain average brightness. And to prepare for lane loss, I use very basic Kalman filter, not WMVF above. However the performance is not good. It is necessary to adjust the value according to the environment.  
 
 ![image](https://user-images.githubusercontent.com/58837749/184783881-2eccbf1a-9a7f-4f65-a53e-1baa1ad652b8.png)  
 (Green Box - original lane, Red Box - predicted lane using kalman filter)
