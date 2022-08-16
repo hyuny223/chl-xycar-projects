@@ -1,6 +1,0 @@
-/home/chl/my_ws/src/turtle_sliding/build/CMakeFiles/rebuild_cache.dir
-/home/chl/my_ws/src/turtle_sliding/build/CMakeFiles/edit_cache.dir
-/home/chl/my_ws/src/turtle_sliding/build/CMakeFiles/turtle_sliding.dir
-/home/chl/my_ws/src/turtle_sliding/build/module/CMakeFiles/rebuild_cache.dir
-/home/chl/my_ws/src/turtle_sliding/build/module/CMakeFiles/edit_cache.dir
-/home/chl/my_ws/src/turtle_sliding/build/module/CMakeFiles/module.dir
