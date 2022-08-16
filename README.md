@@ -4,7 +4,7 @@ These is divided into three parts.
 
 ## 1st - RC-Car perception and control
 First project is for real perception and control of RC-Car.  
-For perception, I use two ways. One is "Brightness Difference Lane Detection". The other is "Huff Transform Lane Detection"
+For perception, I use two ways. One is "Brightness Difference Lane Detection". The other is "Huff Transform Lane Detection".  
 For control, I use "PID control and Weighted Moving Average Filter" for stable driving.  
 
 Brightness Difference Lane Detection
