@@ -3,7 +3,6 @@ These projects are to precess images and control RC-Car.
 These is divided into three parts.  
 
 ## 1st - RC-Car perception and control
----
 First project is for real perception and control of RC-Car.  
 For perception, I use two ways. One is "Brightness Difference Lane Detection". The other is "Huff Transform Lane Detection"
 For control, I use "PID control and Weighted Moving Average Filter" for stable driving.  
@@ -17,7 +16,6 @@ Huff Transform Lane Detection
 
 
 ## 2nd - More sophisticated image processing
----
 Second project is for mor sophisticated image processing. It is based "Brightness Difference Lane Detection".  
 For Robustness against change of Brightness of driving environment, I use maintaining average brightness. And to prepare for lane loss, I use very basic Kalman filter, not WMVF above. However the performance is not good. It is necessary to adjust the value according to the environment.  
 
@@ -26,7 +24,6 @@ For Robustness against change of Brightness of driving environment, I use mainta
 
 
 ## 3rd - Sliding Window Lane Detection with C++
----
 Third project is using Sliding Window algorithm in order to detect lane.  
 In terms of using mathematical formulas, it is a little bit systematic, but it is also weak to lane loss.  
 Unlike before, I used c++.  
